@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            width: 900px; /* Largura desejada para todo o conteúdo */
+            margin: 0 auto; /* Centralizar o conteúdo na página */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            margin: 2em;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 1em;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1em;
+        }
+
+        .contact div {
+            flex: 1;
+        }
+
+        .education, .activities, .skills {
+            margin-bottom: 2em;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills div {
+            flex: 1;
+            margin-right: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Seu Nome</h1>
+        <p>Estudante do Ensino Médio</p>
+    </header>
+
+    <section>
+        <h2>Contato</h2>
+        <div class="contact">
+            <div>
+                <p>Email: seuemail@example.com</p>
+                <p>Telefone: (99) 9999-9999</p>
+            </div>
+            <div>
+                <p>Endereço: Sua Cidade, Estado</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Educação</h2>
+        <ul>
+            <li>
+                <strong>Ensino Médio</strong> - Nome da Escola, Ano de Conclusão Previsto
+            </li>
+        </ul>
+    </section>
+
+    <section class="activities">
+        <h2>Atividades Extracurriculares</h2>
+        <ul>
+            <li>
+                <strong>Clube de Ciências</strong> - Participação ativa, Descrição das atividades
+            </li>
+            <li>
+                <strong>Equipe de Debate</strong> - Membro desde (ano), Participação em competições
+            </li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Habilidades</h2>
+        <div>Comunicação</div>
+        <div>Raciocínio Lógico</div>
+        <div>Trabalho em Equipe</div>
+        <!-- Adicione mais habilidades conforme necessário -->
+    </section>
+
+</body>
+</html>
